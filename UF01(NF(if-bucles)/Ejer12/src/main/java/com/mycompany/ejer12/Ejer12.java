@@ -4,14 +4,23 @@
  */
 
 package com.mycompany.ejer12;
-
+import java.util.Scanner;
 /**
- *
+ * 12.	Dibuja el ordinograma de un programa que lee un número y 
+ * me dice si es positivo o negativo, consideraremos el cero como positivo.
  * @author hema5364
  */
 public class Ejer12 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Introduce un numero");
+        float num1 = sc.nextFloat();
+        if (num1 >= 0) {
+            System.out.println("El "+ num1 + " es positivo");
+        }
+        else {
+            System.out.println("El "+ num1 + " es negativo");
+        }
     }
 }
