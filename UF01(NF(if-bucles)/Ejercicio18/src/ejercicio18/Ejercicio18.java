@@ -22,11 +22,11 @@ public class Ejercicio18 {
         System.out.print("Cuantas horas has trabajado? ");
         int horas = sc.nextInt();
         if (horas > 35) {
-            extra = 1.5 * (float) (horas - 35);
+            extra = (float) (1.5 * (float) (horas - 35));
         } else {
             extra = 0;
         }
-        horas = extra + horas;
+        horas = (int) (extra + horas);
         dinero = 20 * horas;
         System.out.println("Cobraras: " + dinero);
     }
