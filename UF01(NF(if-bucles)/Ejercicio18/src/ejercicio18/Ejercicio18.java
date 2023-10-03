@@ -28,7 +28,7 @@ public class Ejercicio18 {
         }
         horas = (int) (extra + horas);
         dinero = 20 * horas;
-        System.out.println("Cobraras: " + dinero);
+        System.out.println("Cobraras: " + dinero + "€");
     }
     
 }
